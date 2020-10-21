@@ -27,10 +27,6 @@ header {
           align-items: center;
 }
 
-header .box {
-  overflow: scroll;
-}
-
 header .box h1 {
   color: #1d3557;
   line-height: 0.9;

@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 10px;
@@ -40,6 +44,7 @@ header {
       color: $navy;
       line-height: 0.9;
       margin-bottom: 0.5em;
+      margin-top: 0.5em;
       font-size: 3em;
     }
     nav {
@@ -61,11 +66,7 @@ header {
       }
     }
   }
-  background-image: url(./assets/img/pexels-travis-blessing-1363876.jpg);
-  background-size: cover;
   background-color: $light-blue;
-  background-blend-mode: screen;
-  background-position: center center;
 }
 
 @media (max-width: 170px) {

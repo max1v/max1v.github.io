@@ -7,6 +7,10 @@
           box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 10px;
@@ -25,11 +29,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url(./assets/img/pexels-travis-blessing-1363876.jpg);
-  background-size: cover;
   background-color: #a8dadc;
-  background-blend-mode: screen;
-  background-position: center center;
 }
 
 header .github {
@@ -47,6 +47,7 @@ header .box h1 {
   color: #1d3557;
   line-height: 0.9;
   margin-bottom: 0.5em;
+  margin-top: 0.5em;
   font-size: 3em;
 }
 

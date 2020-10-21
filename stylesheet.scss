@@ -24,7 +24,7 @@ $navy: #1d3557;
 }
 
 header {
-    padding-top: 100px;
+    height: 100vh;
     display: flex;
     align-items: center;
     .box {
@@ -59,9 +59,13 @@ header {
 }
 
 @media (min-width: 1024px) {
-
+    body {
+        font-size: 30px;
+    }
 }
 
 @media (min-width: 1200px) {
-    
+    body {
+        font-size: 40px;
+    }
 }

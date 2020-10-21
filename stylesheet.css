@@ -18,7 +18,7 @@ body {
 }
 
 header {
-  padding-top: 100px;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -53,6 +53,18 @@ header .box a {
 @media (min-width: 768px) {
   body {
     font-size: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 40px;
   }
 }
 /*# sourceMappingURL=stylesheet.css.map */

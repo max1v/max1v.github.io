@@ -11,5 +11,6 @@ gsap.from(header_content, {
 gsap.from('.about', {
     scrollTrigger: ".about",
     x:1000,
-    duration:1,
+    duration:0.6,
+    opacity: 0,
 });

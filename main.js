@@ -1,6 +1,9 @@
 gsap.registerPlugin(ScrollTrigger);
 let header_content = document.querySelector('.header-content')
 
+let header = document.querySelector('header');
+header.style.height = window.innerHeight+'px';
+
 gsap.from(header_content, {
     opacity: 0,
     duration: 0.8,

@@ -114,7 +114,7 @@ header {
 
 @media (min-width: 480px) {
   body {
-    font-size: 20px;
+    font-size: 25px;
   }
   header h1 {
     text-align: center;
@@ -124,12 +124,6 @@ header {
     flex-direction: column;
     align-items: center;
     margin-top: 2em;
-  }
-}
-
-@media (min-width: 480px) {
-  body {
-    font-size: 25px;
   }
 }
 
@@ -149,17 +143,14 @@ header {
   body {
     font-size: 30px;
   }
-  .about {
-    flex-direction: row;
-    .redbox {
-      height: 10em;
-      width: 70%;
-    }
-  }
 }
 
 @media (min-width: 1200px) {
   body {
     font-size: 40px;
+  }
+  .about {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
   }
 }

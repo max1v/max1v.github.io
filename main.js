@@ -6,14 +6,14 @@ header.style.height = window.innerHeight+'px';
 
 gsap.from(header_content, {
     opacity: 0,
-    duration: 0.8,
-    scale: 3,
+    duration: 1,
+    x: -400,
     ease:"power4",
 });
 
 gsap.from('.about', {
     scrollTrigger: ".about",
-    x:1000,
+    x:400,
     duration:0.6,
     opacity: 0,
 });

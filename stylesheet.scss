@@ -8,7 +8,7 @@
 }
 
 $red: #e63946;
-$white: #f1faee;
+$white: white; // #f1faee;
 $light-blue: #a8dadc;
 $blue: #457b9d;
 $navy: #1d3557;
@@ -16,9 +16,7 @@ $navy: #1d3557;
 body {
   font-family: "Roboto", sans-serif;
   font-size: 8px;
-  background-image: url(./assets/img/hexagons.jpg);
-  background-color: $light-blue;
-  background-blend-mode: soft-light;
+  background-color: $white;
   background-size: cover;
 }
 

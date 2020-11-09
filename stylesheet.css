@@ -10,9 +10,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 8px;
-  background-image: url(./assets/img/hexagons.jpg);
-  background-color: #a8dadc;
-  background-blend-mode: soft-light;
+  background-color: white;
   background-size: cover;
 }
 
@@ -35,7 +33,7 @@ header {
 }
 
 header .github {
-  color: #f1faee;
+  color: white;
 }
 
 header .github img {
@@ -55,7 +53,7 @@ header .box h1 {
 
 header .box nav a:nth-child(1) {
   background: #e63946;
-  color: #f1faee;
+  color: white;
 }
 
 header .box nav a {
@@ -72,7 +70,7 @@ header .box nav a {
 }
 
 .about {
-  background: #f1faee;
+  background: white;
   border-radius: 5px;
   padding: 3em;
   display: -webkit-box;
